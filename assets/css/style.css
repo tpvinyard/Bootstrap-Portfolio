@@ -63,6 +63,10 @@ hr {
     margin-right: 2%;
 }
 
+.card {
+    margin-bottom: 20px;
+}
+
 .footer {
     bottom: 0;
     width: 100%;
