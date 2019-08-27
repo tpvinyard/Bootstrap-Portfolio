@@ -1,11 +1,11 @@
 body {
     color: #777777;
-    background-image: url("./../images/white-waves.png");
+    /* background-image: url("./../images/white-waves.png"); */
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .navbar {
-    background-color: transparent;
+    background-color: white;
     /* border-bottom: 2px solid #cccccc; */
 }
 
@@ -13,6 +13,9 @@ a {
     font-size: large;
 }
 
+.navbar-brand {
+    margin: 0 0;
+}
 
 
 h1 {
