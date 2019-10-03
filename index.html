@@ -2,62 +2,111 @@
 <html lang="en-us">
 
 <head>
-  <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Tommy Vinyard</title>
-
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-
-
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Tommy Vinyard</title>
+    
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> 
+    <script src="assets/javascript/app.js"></script>
+   
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-            <a class="navbar-brand">
+    <nav class="transparent z-depth-0">
+        <div class="nav-wrapper">
+            <a class="brand-logo center">
                 <img id="logo" src="assets/images/logo2.png">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarToggler">    
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
+            </a> 
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a> 
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li class="nav-item">
+                    <a class="blue-text" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="blue-text" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="blue-text" href="contact.html">Contact</a>
+                </li>
+            </ul>
         </div>
     </nav>
 
-    <div class="container">
-        <div class="row">
-            <div id="aboutMe" class="col-xs-12 col-sm-12 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
-                <h3>About Me</h3> 
-                <hr>
-                <img id="bio-image" src="assets/images/Tommy.jpg" alt="Picture of Tommy" height="200" width="300">
-                <p>I am from a small town in south Texas of about 7,000 people called Gonzales. It was your typical small-town experience: everyone knew everyone, football was king, and there was never anything to do except get into trouble. With that said, my parents were always "city-folk" at heart so as I grew up, I became more and more eager to leave. Fast-forward 10 years spent in Austin, TX, and I now call myself a legitimate Austinite.</p>
-                <p>I attended The University of Texas at Austin and graduated with bachelor's degrees in Astronomy and Physics. I am an avid adventurer, photographer, cyclist, trumpet player, UT football fanatic, corgi lover, and budding software developer.</p>
-                <p>Although my two places that I have called home could not be more polar opposite, I like to think that they have both shaped and melded me into who I am today.</p>
+    <div class="parallax-container">
+        <div class="parallax"><img src="assets/images/1N6A6314.jpg"></div>
+    </div>
+    <div class="section white">
+        <div class="row container">
+            <h3>About Me</h3> 
+            <hr>
+            <img id="bio-image" src="assets/images/Tommy.jpg" alt="Picture of Tommy" height="200" width="300">
+            <p>I am from a small town in south Texas of about 7,000 people called Gonzales. It was your typical small-town experience: everyone knew everyone, football was king, and there was never anything to do except get into trouble. With that said, my parents were always "city-folk" at heart so as I grew up, I became more and more eager to leave. Fast-forward 10 years spent in Austin, TX, and I now call myself a legitimate Austinite.</p>
+            <p>I attended The University of Texas at Austin and graduated with bachelor's degrees in Astronomy and Physics. I am an avid adventurer, photographer, cyclist, trumpet player, UT football fanatic, corgi lover, and budding software developer.</p>
+            <p>Although my two places that I have called home could not be more polar opposite, I like to think that they have both shaped and melded me into who I am today.</p>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="assets/images/1N6A7456.jpg"></div>
+    </div>
+    <div class="section white">
+        <div class="row container">
+            <h3>Portfolio</h3> 
+            <hr>
+            <div class="row">
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="assets/images/liri.png">
+                            
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">LIRI Bot</span>
+                            <p>Leverage the Spotify, Bands In Town, and OMDB APIs from the terminal. Built with JavaScript and Node.js.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://github.com/tpvinyard/liri-node-app" target="_blank">Visit!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="assets/images/the-liquor-cabinet.png">
+                            
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">The Liquor Cabinet</span>
+                            <p>Input the ingredients in your liquor cabinet, and we will give you cocktails that you can make! Built with Javascript (jQuery) and leveraging two different APIs with AJAX.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://tpvinyard.github.io/TheLiquorCabinet/public" target="_blank">Visit!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="assets/images/RPS.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Rock, Paper, Scissors Multiplayer</span>
+                            <p>Share the link! A Rock, Paper Scissors game built with javascript and Firebase.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://tpvinyard.github.io/RPS-Multiplayer/" target="_blank">Play!</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
-    <footer class="footer">
-        <div class="container">
-            <span>Thank you for visiting!</span>
-        </div>
-    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 
