@@ -8,7 +8,10 @@
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     
@@ -19,37 +22,48 @@
 </head>
 
 <body>
-    <nav class="transparent z-depth-0">
-        <div class="nav-wrapper">
-            <a class="brand-logo center">
-                <img id="logo" src="assets/images/logo2.png">
-            </a> 
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a> 
-            <ul id="nav-mobile" class="left hide-on-med-and-down">
-                <li class="nav-item">
-                    <a class="blue-text" href="index.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="blue-text" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="blue-text" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
+    <nav class="white z-depth-0">
+            <div class="nav-wrapper">
+                <a class="brand-logo center">
+                    <img class="responsive-img" id="logo" src="assets/images/logo2.png">
+                </a> 
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
+                <ul class="left hide-on-med-and-down">
+                    <li>
+                        <a class="blue-text text-lighten-2" href="index.html">About</a>
+                    </li>
+                    <li>
+                        <a class="blue-text text-lighten-2" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="blue-text text-lighten-2" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
     </nav>
+    <ul id="mobile-demo" class="sidenav">
+            <li>
+                <a href="index.html">About</a>
+            </li>
+            <li>
+                <a href="portfolio.html">Portfolio</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+    </ul>
 
     <div class="parallax-container">
-        <div class="parallax"><img src="assets/images/1N6A6314.jpg"></div>
+        <div class="parallax responsive-img"><img src="assets/images/1N6A6314.jpg"></div>
     </div>
     <div class="section white">
         <div class="row container">
-            <h3>About Me</h3> 
+            <h3 class="center-align">About Me</h3> 
             <hr>
             <img id="bio-image" src="assets/images/Tommy.jpg" alt="Picture of Tommy" height="200" width="300">
-            <p>I am from a small town in south Texas of about 7,000 people called Gonzales. It was your typical small-town experience: everyone knew everyone, football was king, and there was never anything to do except get into trouble. With that said, my parents were always "city-folk" at heart so as I grew up, I became more and more eager to leave. Fast-forward 10 years spent in Austin, TX, and I now call myself a legitimate Austinite.</p>
-            <p>I attended The University of Texas at Austin and graduated with bachelor's degrees in Astronomy and Physics. I am an avid adventurer, photographer, cyclist, trumpet player, UT football fanatic, corgi lover, and budding software developer.</p>
-            <p>Although my two places that I have called home could not be more polar opposite, I like to think that they have both shaped and melded me into who I am today.</p>
+            <p class="bio-text">I am from a small town in south Texas of about 7,000 people called Gonzales. It was your typical small-town experience: everyone knew everyone, football was king, and there was never anything to do except get into trouble. With that said, my parents were always "city-folk" at heart so as I grew up, I became more and more eager to leave. Fast-forward 10 years spent in Austin, TX, and I now call myself a legitimate Austinite.</p>
+            <p class="bio-text">I attended The University of Texas at Austin and graduated with bachelor's degrees in Astronomy and Physics. I am an avid adventurer, photographer, cyclist, trumpet player, UT football fanatic, corgi lover, and budding software developer.</p>
+            <p class="bio-text">Although my two places that I have called home could not be more polar opposite, I like to think that they have both shaped and melded me into who I am today.</p>
         </div>
     </div>
     <div class="parallax-container">
@@ -57,7 +71,7 @@
     </div>
     <div class="section white">
         <div class="row container">
-            <h3>Portfolio</h3> 
+            <h3 class="center-align">Portfolio</h3> 
             <hr>
             <div class="row">
                 <div class="col s12 m6 l4">
@@ -155,6 +169,31 @@
     <div class="parallax-container">
         <div class="parallax"><img src="assets/images/1N6A8850.jpg"></div>
     </div>
+    <footer class="white page-footer">
+        <div class="container">
+            <div class="row">
+            <div class="col l6 s12">
+                <h5 class="blue-text text-lighten-2">Footer Content</h5>
+                <p class="blue-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                <li><a class="blue-text text-lighten-3" href="#!">Link 1</a></li>
+                <li><a class="blue-text text-lighten-3" href="#!">Link 2</a></li>
+                <li><a class="blue-text text-lighten-3" href="#!">Link 3</a></li>
+                <li><a class="blue-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div class="footer-copyright blue lighten-2">
+            <div class="container">
+            © 2014 Copyright Text
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 
