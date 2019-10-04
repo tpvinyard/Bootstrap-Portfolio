@@ -14,7 +14,7 @@ body {
 } */
 
 .parallax-container {
-    height: auto;
+    height: 100px;
 }
 
 .nav-item {
@@ -30,8 +30,8 @@ body {
 }
 
 #logo {
-    height: 140px;
-    width: 120px;
+    height: 60px;
+    width: 240px;
 }
 
 a {
@@ -117,5 +117,27 @@ hr {
 @media (min-width: 1200px) {
     .container{
         max-width: 970px;
+    }
+}
+
+@media (max-width: 399px) {
+    #logo {
+        height: 40px;
+        width: 160px;
+    }
+}
+
+@media only screen and
+    (min-width: 400px)
+    and (max-width: 600px) {
+        #logo {
+            height: 50px;
+            width: 200px;
+        }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 780px) {
+    .parallax-container {
+        height: 250px;
     }
 }
