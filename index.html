@@ -23,21 +23,21 @@
 
 <body>
     <div class="navbar-fixed">
-        <nav class="white z-depth-0">
-                <div class="nav-wrapper">
+        <nav class="white z-depth-3">
+                <div class="nav-wrapper container">
                     <a class="brand-logo">
                         <img class="responsive-img" id="logo" src="assets/images/logo3.png">
                     </a> 
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
                     <ul class="right hide-on-med-and-down">
                         <li>
-                            <a class="blue-text text-darken-3" href="index.html">About</a>
+                            <a class="blue-text text-darken-3" href="#about">About</a>
                         </li>
                         <li>
-                            <a class="blue-text text-darken-3" href="portfolio.html">Portfolio</a>
+                            <a class="blue-text text-darken-3" href="#portfolio">Portfolio</a>
                         </li>
                         <li>
-                            <a class="blue-text text-darken-3" href="contact.html">Contact</a>
+                            <a class="blue-text text-darken-3" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -55,11 +55,19 @@
             </li>
     </ul>
 
-    <div class="parallax-container">
-        <div class="parallax"><img class="responsive-img" src="assets/images/1N6A6314.jpg"></div>
+    <div class="parallax-container center valign-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 white-text">
+                <h1>Tommy Vinyard</h1>
+                <h5>Developer. Adventurer.</h5>
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img class="responsive-img" src="assets/images/1N6A7417-2.jpg"></div>
     </div>
     <div class="section white">
-        <div class="row container">
+        <div id="about" class="section scrollspy row container">
             <h3 class="center-align">About Me</h3> 
             <hr>
             <img id="bio-image" src="assets/images/Tommy.jpg" alt="Picture of Tommy" height="200" width="300">
@@ -72,7 +80,7 @@
         <div class="parallax"><img class="responsive-img" src="assets/images/1N6A7456.jpg"></div>
     </div>
     <div class="section white">
-        <div class="row container">
+        <div id="portfolio" class="section scrollspy row container">
             <h3 class="center-align">Portfolio</h3> 
             <hr>
             <div class="row">
@@ -169,13 +177,42 @@
         </div>
     </div>
     <div class="parallax-container">
+        <div class="parallax"><img class="responsive-img" src="assets/images/1N6A7213-2.jpg"></div>
+    </div>
+    <div id="contact" class="section scrollspy row container">
+        <h3 class="center-align">Contact</h3> 
+        <hr>
+        <form class="col s12 m6 offset-m3">
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="first_name" type="text" class="validate">
+                    <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name">Last Name</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                </div>
+            </div>
+            <div class="input-field col s12">
+                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                <label for="textarea1">Message</label>
+            </div>
+            <button id='submit-contact' type="submit" class="btn btn-primary waves-effect">Submit</button>
+        </form>
+    </div>
+    <div class="parallax-container">
         <div class="parallax"><img class="responsive-img" src="assets/images/1N6A8850.jpg"></div>
     </div>
     <footer class="white page-footer">
         <div class="footer-copyright grey lighten-1">
-            <div class="blue-text text-darken-3 container">
+            <div class="grey-text text-darken-3 container">
             © 2019 Tommy Vinyard
-            <a class="blue-text text-darken-3 right" href="#!">Contact Me</a>
             </div>
         </div>
     </footer>
