@@ -124,6 +124,9 @@ hr {
         height: 40px;
         width: 160px;
     }
+    .non-primary {
+        height: 90%;
+    }
 }
 
 @media only screen and
@@ -133,10 +136,14 @@ hr {
             height: 50px;
             width: 200px;
         }
+        .non-primary {
+            height: 90%;
+        }
+
 }
 
 @media only screen and (min-width: 601px) and (max-width: 780px) {
-    .parallax-container {
-        height: 250px;
+    .non-primary {
+        height: 90%;
     }
 }

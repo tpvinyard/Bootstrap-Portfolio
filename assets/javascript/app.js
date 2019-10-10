@@ -3,8 +3,8 @@ $(document).ready(function(){
     $('.parallax').parallax();
     $('.scrollspy').scrollSpy();
 
+    $('#submit-contact').on('click', function() {
+      event.preventDefault();
+    });
   });
 
-$('#submit-contact').on('click', function() {
-  event.preventDefault();
-});
